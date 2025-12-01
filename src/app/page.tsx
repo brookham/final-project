@@ -2,8 +2,10 @@
 
 import { Box, Button, Stack, Typography, Paper } from "@mui/material";
 
+import Map from "../components/map";
 
 export default function HomePage() {
+  
   return (
     <Box
       sx={{
@@ -72,6 +74,7 @@ export default function HomePage() {
         </Paper>
 
       </Stack>
+      <Map/>
     </Box>
   );
 }
