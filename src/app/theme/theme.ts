@@ -32,6 +32,9 @@ export const theme = createTheme({
         success: {
             main: '#118ab2',
         },
+        background: {
+            default: "#98DAAF"
+        }
     },
 
     // set the font with the typography key
