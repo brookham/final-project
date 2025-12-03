@@ -1,11 +1,11 @@
 "use client";
 
-import { Box, Button, Stack, Typography, Paper } from "@mui/material";
+import { Box } from "@mui/material";
 
-import Map from "../components/map";
+import Map from "@/components/map/page";
 
-export default function HomePage() {
-  
+export default function Home() {
+
   return (
     <Box
       sx={{
@@ -15,7 +15,9 @@ export default function HomePage() {
         gap: 4,
       }}
     >
-      <Map/>
+      <Box>
+        <Map />
+      </Box>
     </Box>
   );
 }
