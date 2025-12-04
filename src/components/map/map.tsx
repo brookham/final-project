@@ -36,7 +36,7 @@ export default function Map(props: {fires: FireInfo}) {
             key={i}
             center={[fire.latitude, fire.longitude]}
             pathOptions={{ color: "red", fillColor: "#f03", fillOpacity: 0.5 }}
-            radius={500}
+            radius={1000}
           />
         ))}
       </MapContainer>
