@@ -15,7 +15,12 @@ export async function GET() {
 
   const parsed = parse(csv, { columns: true })
 
+  const data: any[] = []
 
-  return NextResponse.json({ csv: parsed })
+  parsed.forEach(element => {
+    data.push(element)
+  });
+
+  return NextResponse.json(data)
 
 }
