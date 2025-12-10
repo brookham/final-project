@@ -7,7 +7,7 @@ export async function GET() {
 
   const apiKey = process.env.FIRMS_API_KEY
 
-  const FIRMS_URL = `https://firms.modaps.eosdis.nasa.gov/api/area/csv/${apiKey}/VIIRS_NOAA20_NRT/world/1`
+  const FIRMS_URL = `https://firms.modaps.eosdis.nasa.gov/api/area/csv/${apiKey}/VIIRS_NOAA20_NRT/world/2`
 
   const response = await fetch(FIRMS_URL)
 
